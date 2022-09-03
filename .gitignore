@@ -11,6 +11,9 @@
 # production
 /build
 
+# I want this specific file to be ignored
+/.env
+
 # misc
 .DS_Store
 .env.local
