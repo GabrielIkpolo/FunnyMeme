@@ -1,0 +1,87 @@
+.img {
+    display: block;
+    margin-bottom: 20px;
+    width: 80%;
+    object-fit: cover;
+    margin-left: 10%;
+    margin-right: 25%;
+    z-index: -1;
+}
+
+.topInput {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.leftInput {
+    margin-left: 1px;
+    margin-right: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.rightInput {
+    margin-right: 0;
+    margin-left: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.bottomInput {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.textInputs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.surfaceInputs{
+    /* position:relative; */
+    text-align: center;
+}
+.surfaceInputs > div {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(245, 159, 0);
+    font-size: 16px;
+}
+
+.surfaceTop{
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 79%;
+    left: 11%;
+}
+
+.surfaceLeft{
+    text-align: center;
+    position:absolute;
+    width: 13%;
+    word-wrap: normal;
+    top: 120%;
+    left: 10%;
+}
+
+.surfaceRight{
+    text-align: center;
+    position: absolute;
+    width: 13%;
+    word-wrap: normal;
+    top:120%;
+    right: 10%;
+}
+
+.surfaceBottom{
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    top: 170%;
+    left: 11%;
+}
+

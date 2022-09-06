@@ -1,0 +1,9 @@
+ .nav{
+    position: sticky;
+    top: 0;
+}
+
+.pricing{
+    color: red !important;
+}
+
