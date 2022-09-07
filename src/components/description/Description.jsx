@@ -87,7 +87,7 @@ function Description() {
             <div className="card-body text-center " style={{ display: guide }} >
                 <h5 className="card-title">Instructions</h5>
                 <p className="card-text">
-                    Click the button below button to generate a random
+                    Click the button below to generate a random
                     picture which will appear below.
                 </p>
                 <a onClick={generateRandomMeme} className="btn randomMemeBtn">Generate Random Meme </a>
