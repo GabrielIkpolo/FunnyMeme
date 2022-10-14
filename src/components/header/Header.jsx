@@ -1,25 +1,30 @@
 import './header.css';
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../../funnyImages/funny4.jpeg';
 
 function Header() {
+
+    const handleMakeGifPage =()=>{
+        console.log("it was handled");
+    }
+
+
     return (
         <>
             <div className="header">
                 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                    <Navbar.Brand className='brand' href="#home">
+                    <Navbar.Brand className='brand' href="/">
                         <img className='logo' src={logo} alt="theLogo" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#features" >Features</Nav.Link>
-                            <Nav.Link href="#pricing">Funny Memes</Nav.Link>
+                            <Nav.Link href="/" >Features</Nav.Link>
+                            <Nav.Link href="/">Funny Memes</Nav.Link>
                             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                                <NavDropdown.Item href="/make-gif">Make GIF</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">
                                     Another action
                                 </NavDropdown.Item>

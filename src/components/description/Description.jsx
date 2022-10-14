@@ -69,7 +69,7 @@ function Description() {
                 <div className="card-header">
                     <ul className="nav "  >
                         <li className="navItemOne ">
-                            <a className="nav-link active" onClick={guideClicked}>Guide</a>
+                            <a className="nav-link active"  onClick={guideClicked}>Guide</a>
                         </li>
                         <li className="navItemOne">
                             <a className="nav-link" onClick={importImage} >Import Image</a>
