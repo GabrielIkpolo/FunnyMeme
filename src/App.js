@@ -18,7 +18,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Message className="wrapper" />} />
-          <Route path='/make-gif'element={<Gif />} />
+          <Route path='/make-gif' element={<Gif />} />
         </Routes>
         <Footer />
       </Router>
