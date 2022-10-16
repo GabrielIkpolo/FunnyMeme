@@ -27,14 +27,15 @@ function Gif() {
         const theImage = document.querySelector('.theGIF > img');
         if (!theImage) return alert("The image does not exist");
         const canvas = await html2canvas(theImage);
-        const dataURL = canvas.toDataURL('image/png');
-        downloadjs(dataURL, 'download.png', 'image/png');
+        const dataURL = canvas.toDataURL('media/gif');
+        downloadjs(dataURL, 'download.gif', 'media/gif');
     }, []);
 
     return (
         <>
             <div className="createGIF wrapper">
-                <button className='createGIFBtn col-6 offset-3' onClick={handleVideoGIF}>Create Video GIF</button>
+                <button className='createGIFBtn col-6 offset-3' onClick={handleVideoGIF}>Create GIF</button>
+                <span>Click on the image to download gif (It takes some few seconds to capture) </span>
                 <hr />
                 <div className='theGIF' onClick={downloadGif}>
 

@@ -10,4 +10,13 @@
     border: none;
     border-radius: 20px;
     padding: 10px;
+    font-weight: bold;
+}
+
+span{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(243, 81, 81);
+    font-size: 10px;
 }
