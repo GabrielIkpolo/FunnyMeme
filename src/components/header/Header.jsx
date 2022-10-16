@@ -25,13 +25,9 @@ function Header() {
                             <Nav.Link href="/">Funny Memes</Nav.Link>
                             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="/make-gif">Make GIF</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">
-                                    Another action
-                                </NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">
-                                    Separated link
+                                    More info
                                 </NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
